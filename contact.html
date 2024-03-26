@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Contact us</title>
-
+  <link rel="stylesheet" href="./assets/css/ieee.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <!-- Icon -->
@@ -26,12 +26,13 @@
 <body>
 
   <!-- Header Area wrapper Starts -->
-  <header id="header-wrap">
+   <!-- Header Area wrapper Starts -->
+   <header id="header-wrap">
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <a href="index.html" class="navbar-brands">IC-SIT 2024</a>
+        <a href="index.html" class="navbar-brand black">IC-SIT 2024</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <i class="lni-menu"></i>
@@ -44,24 +45,42 @@
               </a>
             </li>
             <li class="nav-item black">
-              <a class="nav-link black" href="./index.html#call-for-papers">
+              <!-- <a class="nav-link" href="#call-for-papers">
                 Call for Papers
-              </a>
+              </a> -->
+              <div class="dropdown">
+                <button class="dropbtn"><a class="nav-link">Call for Papers</a></button>
+                <div class="dropdown-content">
+                  <a href="#call-for-papers" class="drop-link"> Important Dates</a>
+                  <a href="#call-for-papers" class="drop-link">Brochure</a>
+                </div>
+              </div>
             </li>
             <li class="nav-item black">
-              <a class="nav-link" href="./index.html#committee">
+              <a class="nav-link" href="#committee">
                 Committee
               </a>
             </li>
             <li class="nav-item black">
-              <a class="nav-link" href="./index.html#special-sessions">
+              <a class="nav-link" href="#special-sessions">
                 Special Sessions
               </a>
             </li>
             <li class="nav-item black">
-              <a class="nav-link" href="./authordesk.html">
+              <!-- <a class="nav-link" href="./authordesk.html">
                 Author Desk
-              </a>
+              </a> -->
+              <div class="dropdown">
+                <button class="dropbtn"><a class="nav-link">Author Desk</a></button>
+                <div class="dropdown-content">
+                  <a href="./authordesk.html" class="drop-link">IEEE Paper Template</a>
+                  <a href="./authordesk.html" class="drop-link">Paper Submission</a>
+                  <a href="./authordesk.html" class="drop-link">Important Dates</a>
+                  <a href="./authordesk.html" class="drop-link">Paper Submission</a>
+                  <a href="./authordesk.html" class="drop-link">Publication</a>
+                  <a href="./authordesk.html" class="drop-link">Registration</a>
+                  <a href="./authordesk.html" class="drop-link">Schedule</a>
+                </div>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="./contact.html">
