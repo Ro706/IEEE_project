@@ -579,6 +579,16 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-brand {
   position: relative;
   padding: 0px;
+  color: white;
+}
+.navbar-brands{
+  position: relative;
+  padding: 0px;
+  color: #000;
+}
+
+.navbar-brand .black:hover{
+  color: #ff4a67;
 }
 
 .navbar-brand img {
