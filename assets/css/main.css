@@ -868,7 +868,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   display: table-cell;
 }
 
-.about-content .about-text h2 {
+.about-content . h2 {
   font-size: 40px;
   font-weight: 700;
 }
@@ -883,6 +883,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .about-content .about-text p {
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align:justify;
 }
 
 .about-content ul {
