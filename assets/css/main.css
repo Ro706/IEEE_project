@@ -705,7 +705,12 @@ a.back-to-top:hover, a.back-to-top:focus {
   -webkit-text-fill-color: transparent;
   background-clip: text !important;
 }
-
+.navbar li.black a.nav-link{
+  background-image: linear-gradient(65deg, #000 0, #000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text !important;
+}
 .dropdown-toggle::after {
   display: none;
 }
@@ -1815,10 +1820,20 @@ h1 {
 .contact {
   background: #111111;
 }
+.row {
+  margin-left: 0;
+  margin-right: 0;
+  /* border:  2px solid #ff4a67; */
+}
 
+.body-contact{
+  background-color: #111111;
+}
 #conatiner-map {
   width: 100%;
   height: 580px;
+  margin-top: -100px;
+  margin-left: 200px;
 }
 
 .title-forme {
@@ -1870,7 +1885,7 @@ h1 {
 .container-form {
   left: 0%;
   padding: 40px 15px;
-  margin-left: -15px;
+  margin-left: 35px;
   z-index: 99;
 }
 
@@ -1933,7 +1948,7 @@ h1 {
   box-shadow: none;
   color: #848484;
   background: #f7f7f7;
-  padding: 7px 19px;
+  padding: 37px 9px;
   border: 1px solid #e5e5e5;
   border-radius: 0px;
   transition: all 500ms ease;
