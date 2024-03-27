@@ -577,7 +577,8 @@
         <div class="col-lg-8 col-md-12 col-xs-12">
           <div class="subscribe-inner wow fadeInDown" data-wow-delay="0.3s">
             <h2 class="subscribe-title">To Get Nearly Updates</h2>
-            <form class="text-center form-inline">
+            <form class="text-center form-inline" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="c7b2dea6-38c2-4ab0-b1a2-40678d90f944">
               <input class="mb-20 form-control" name="email" placeholder="Enter Your Email Here">
               <button type="submit" class="btn btn-common sub-btn" data-style="zoom-in" data-spinner-size="30"
                 name="submit" id="submit">
@@ -626,6 +627,7 @@
   </div>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://web3forms.com/client/script.js" async defer></script>
   <script src="assets/js/jquery-min.js"></script>
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
