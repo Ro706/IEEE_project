@@ -579,12 +579,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-brand {
   position: relative;
   padding: 0px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .navbar-brands{
   position: relative;
   padding: 0px;
-  color: #000;
+  color: #ffffff;
 }
 
 .navbar-brand .black:hover{
@@ -596,7 +596,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .top-nav-collapse {
-  background: #fff;
+  background: #ffffff;
   z-index: 999999;
   top: 0px !important;
   min-height: 58px;
